@@ -1,0 +1,217 @@
+<!Doctype>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<meta name = "description" content = "life hack index">
+<meta name= "keywords" cntent = "html">
+<meta name = "auther" content = "fatima"> 
+
+<title>
+life hack index
+</title>
+
+</head>
+
+<body>
+<table>
+
+<th><td width = "10%"></td></th>
+
+   <th>
+       <td width =" 50%" >
+          <img src ="C:\Users\Fatim\OneDrive\Desktop\lab2\lab2\resources\images\logo_gold.png" width ="100px" height =" 100px" alt = "document logo"> 
+       </td>
+   </th>
+     <th>  <td width = "30%" align = "right">
+         <b>  <a href ="#">products|</a></b>
+         <b><a href ="#">Article|</a></b>
+         <b><a href ="#">idea|</a></b>
+         <b><a href ="#">About Us|</a></b>
+         <b><a href ="#">contuct Us|</a></b>
+       </td>  
+   </th>
+<th><td width = "10%"></td></th>
+</table>
+<hr><br>
+<table>
+
+<tr>
+<th>
+<td width="10%">
+</td>
+<th>
+<td width="60%">
+</td>
+<th><td width= "40%">
+<p align="center"><a href= "#"> Go to bottom</a></p></td></th>
+<th>
+<td width="0%">
+</td>
+</tr>
+
+<th>
+    <td width = "10%">
+    </td>
+</th>
+
+
+
+<th>
+    <td width = "50%">
+      <h1>Eric Hoffer and the Power of Self-Education
+      </h1>
+      <img src ="C:\Users\Fatim\OneDrive\Desktop\lab2\lab2\resources\images\banners\life1.jpg" width ="100%" alt = "banner" usemap = "#image-map">
+      <map name="image-map">
+    <area target="_top" alt="nature" title="nature" href="http://www.hdwallpaperspulse.com/wp-content/uploads/2017/09/05/beautiful-natural-wallpaper.jpg" coords="653,5,8,572" shape="rect">
+    <area target="_top" alt="head" title="head" href="https://pngimg.com/uploads/brain/brain_PNG34.png" coords="967,219,68" shape="circle">
+    <area target="_top" alt="books" title="books" href="http://images.hellogiggles.com/uploads/2016/12/18043538/shutterstock_91553819.jpg" coords="1030,271,1025,354,1031,430,1042,469,1108,480,1135,416,1128,444,1133,365,1092,253" shape="poly">
+     </map>
+    
+      <p>I recently read The True Believer by Eric Hoffer.
+         It's a book about how mass movements evolve. 
+         With a lotof historical examples, the book explains the patterns and common threads among them.
+         It's an insightfulbook and reading it was a great learning experience for me.
+      </p>
+      <table>
+       <tr>
+        <td><img src="C:\Users\Fatim\OneDrive\Desktop\broken.jpg" alt="The true beliver book cover" ></td>
+        <td> <p>What I'd like to share with you here is not the content of the book, though. 
+         Instead, I'dlike to share with you about the author</p>
+      <p>You see, I didn't know about Eric Hoffer before.
+         But I imagined he must be a famousprofessor from a well-known university.
+         I mean, what else could explain the depth of hisinsights? The True Believer is an influential book. 
+         Here is how<a href ="#" >Wikipedia</a> put it... <a href ="#">read<br> more</a>
+      </p></td>
+      </table>
+         <hr>
+      <h3>New Podcast</h3>
+      <h2><b>Jack Ma - How I Overcame Failure</b></h2>
+      <audio controls>
+      <source src="C:\Users\Student.DESKTOP-QBJTNBK\Desktop\lab2\resources\audio\Jack Ma-How I Overcome Failer.mp3"type="audio/mpeg">Jack Ma-How I Overcome Failer
+      </audio>
+      <hr>
+      <h4>Pick of The Week</h4>
+      <h2>24 Hours A Day</h2> 
+ <video controls width ="100%">
+  <source src="24_HOUR.mp4"
+ </video>
+ </td>
+</th>
+
+
+<th>
+   <td width = "30%" valign = "top" >
+      <h2>Recent Posts</h2>
+    <ul>
+        
+        <li><h3><summary>Articles</summary></h3>
+            <details>
+            <ul> 
+             <li>The Importance of Goals,Especially During DifficultTimes</li>
+             <li>5 Steps to Discovering YourLife Purpose In 2022!</li></details>
+
+            </ul>
+        </li>
+       
+       
+        
+    </ul>
+       <ul> 
+        <li><h3><summary>Ideas</summary></h3>
+            
+         <ul>
+            <details>
+          <li>10 Books to Read in The Fall</li>
+          <li>Top Web Development ProjectsIdeas</li></details> 
+         </ul>
+        </li>
+    </ul>
+      
+    </ul>
+    <h2>Most Viewed Articls</h2>
+        <ol type ="I">
+            <li> Instant Gratification Is Stopping YouFrom Reaching Your Goals! li></li>
+            <li>Stop Juggling Between Work And Life</li>
+        </ol>
+    <h2>IP Project Winners</h2>
+    <p>------------------------------------</p>
+    <p>Rank&emsp;Award</p>
+    <p>------------------------------------</p>
+    <p>First&emsp; Free hosting and support</P>
+    <p>Second&emsp;5GB Mobile Data</P>
+    <p>Third&emsp; 1GB Mobile Data</P>
+    <p>------------------------------------</p>
+    <svg height="210" width="500">
+    <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+    </svg>
+
+    <svg width="400" height="110">
+    <rect width="300" height="100" style="fill:red;stroke: black;stroke-width:3;stroke:rgb(0,0,0)" />
+    </svg>
+
+    <svg width="400" height="180">
+    <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+    style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+    </svg>
+
+    <svg height="100" width="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+</svg>
+
+<svg height="210" width="500">
+  <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:blue;stroke:purple;stroke-width:5;fill-rule:nonzero;" />
+</svg>
+
+
+  </td>
+</th>
+
+
+
+<th><td width = "10%"></td></th>
+
+</table>
+<br><hr><br>
+<table>
+ <th>
+  <td width="10%">
+  </td>
+ </th>
+<th>
+ <td width="40%" align="left">
+ <p> Follow us on : <a href="#">Facebook</a> |<a href="#"> Twitter</a></p>
+ </td>
+</th>
+<th>
+ <td width="40%" >
+ <p> <a href="#">Privacy</a> | <a href="#">Term of use</a></p>
+ </td>
+</th>
+<th>
+  <td width="10%">
+</td>
+</th>
+<tr>
+    <th>
+<td width="10%">
+</td>
+</th>
+<th>
+<td align="center" width="75%">
+    <p align="center">Copyright © AASTU SEng 2021, All Rights Reserved</p>
+</td>
+</th>
+<th>
+<td width="10%">
+</td>
+</th>
+     </table>
+
+
+
+</body>
+
+</html
