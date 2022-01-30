@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<meta name = "description" content = "life hack index">
+<meta name= "keywords" cntent = "html">
+<meta name = "auther" content = "fatima"> 
+
+<title>
+life hack index
+</title>
+
+</head>
+
+<body>
+<table>
+
+<th><td width = "10%"></td></th>
+
+   <th>
+       <td width =" 50%" >
+          <img src ="C:\Users\Fatim\OneDrive\Desktop\lab2\lab2\resources\images\logo_gold.png" width ="100px" height =" 100px" alt = "document logo"> 
+       </td>
+   </th>
+     <th>  <td width = "30%" align = "right">
+         <b>  <a href ="#">products|</a></b>
+         <b><a href ="#">Article|</a></b>
+         <b><a href ="#">idea|</a></b>
+         <b><a href ="register.html">Register|</a></b>
+         <b><a href ="signin.html">sign in|</a></b>
+       </td>  
+   </th>
+<th><td width = "10%"></td></th>
+</table>
+<hr><br>
+<table>
+
+<tr>
+<th>
+<td width="10%">
+</td>
+<th>
+<td width="60%">
+</td>
+<th><td width= "40%">
+<p align="center"><a href= "#"> Go to bottom</a></p></td></th>
+<th>
+<td width="0%">
+</td>
+</tr>
+
+<th>
+    <td width = "10%">
+    </td>
+</th>
+
+
+
+<th>
+    <td width = "50%">
+      <h1>Eric Hoffer and the Power of Self-Education
+      </h1>
+      <img src="image/life1.jpg" width ="100%" alt = "banner" usemap = "#image-map" class="imh">
+      <map name="image-map">
+    <area target="_top" alt="nature" title="nature" href="http://www.hdwallpaperspulse.com/wp-content/uploads/2017/09/05/beautiful-natural-wallpaper.jpg" coords="653,5,8,572" shape="rect">
+    <area target="_top" alt="head" title="head" href="https://pngimg.com/uploads/brain/brain_PNG34.png" coords="967,219,68" shape="circle">
+    <area target="_top" alt="books" title="books" href="http://images.hellogiggles.com/uploads/2016/12/18043538/shutterstock_91553819.jpg" coords="1030,271,1025,354,1031,430,1042,469,1108,480,1135,416,1128,444,1133,365,1092,253" shape="poly">
+     </map>
+    
+      <p>I recently read The True Believer by Eric Hoffer.
+         It's a book about how mass movements evolve. 
+         With a lotof historical examples, the book explains the patterns and common threads among them.
+         It's an insightfulbook and reading it was a great learning experience for me.
+      </p>
+      <table>
+       <tr>
+        <td><img src="C:\Users\Fatim\OneDrive\Desktop\broken.jpg" alt="The true beliver book cover" ></td>
+        <td> <p>What I'd like to share with you here is not the content of the book, though. 
+         Instead, I'dlike to share with you about the author</p>
+      <p>You see, I didn't know about Eric Hoffer before.
+         But I imagined he must be a famousprofessor from a well-known university.
+         I mean, what else could explain the depth of hisinsights? The True Believer is an influential book. 
+         Here is how<a href ="#" >Wikipedia</a> put it... <a href ="#">read<br> more</a>
+      </p></td>
+      </table>
+         <hr>
+
+        
+        <p id="addition">
+      <h3>New Podcast</h3>
+      <h2><b>Jack Ma - How I Overcame Failure</b></h2>
+
+      <audio id="audi" controls onplay="alert('audio played ')" onpause="alert('audio paused')"><source src="audio/Jack Ma - How I Overcame Failure.mp3" type="audio/mpeg">audio</audio>
+      <div class="jsimplement">
+      <button onClick="swap(aNode, bNode)">swap video and image</button>
+      <button onclick="audioremove()">remove audio </button>
+      <button onclick="myFunction()">add new list item </button>
+      </div>
+      <hr>
+      <h4>Pick of The Week</h4>
+      <h2>24 Hours A Day</h2> 
+ <video controls width ="100%" class="vid" loop>
+  <source src="audio/24_HOURS.mp4">
+ </video>
+<style>
+    .jsimplement{
+        display: flex;
+        margin: 10px 10px 10px 300px;
+    }
+    .butt1{
+        margin: 10px 10px 10px 10px;
+    }
+    .butt2{
+        margin: 10px 10px 10px 10px;
+    }
+    .butt3{
+        margin: 10px 10px 10px 10px;
+    }
+</style>
+<script>
+
+function swap(imh,vid) {
+	var x1 = imh.parentNode,
+		x2 = vid.parentNode,
+		i1,
+		i2;
+
+	if (!x1|| !x2 || x1.isEqualNode(vid) || x2.isEqualNode(imh)) return;
+
+	for (var i = 0; i < x1.children.length; i++) {
+		if (x1.children[i].isEqualNode(imh)) {
+			i1 = i;
+		}
+	}
+	for (var i = 0; i < x2.children.length; i++) {
+		if (x2.children[i].isEqualNode(vid)) {
+			i2 = i;
+		}
+	}
+
+	if (x1.isEqualNode(x2) && i1 < i2) {
+		i2++;
+	}
+	x1.insertBefore(vid, x1.children[i1]);
+	x2.insertBefore(imh, x2.children[i2]);
+}
+
+var aNode = document.querySelector(".imh");
+var bNode = document.querySelector(".vid");
+
+
+        function audioremove() {
+        var myobj = document.getElementById("audi");
+        myobj.remove();
+        }
+
+        function myFunction() {
+        const node = document.createElement("li");
+        const textnode = document.createTextNode("the secret of the jungle");
+        node.appendChild(textnode);
+        document.getElementById("mylist").appendChild(node);}
+        
+        let clip = document.querySelector(".vid")
+  
+        clip.addEventListener("mouseover", function (e) {
+            clip.play();
+        })
+
+        clip.addEventListener("mouseout", function (e) {
+            clip.pause();
+        })
+    </script>
+
+ </td>
+</th>
+
+
+<th>
+   <td width = "30%" valign = "top" >
+      <h2>Recent Posts</h2>
+    <ul>
+        
+        <li><h3><summary>Articles</summary></h3>
+            <details>
+            <ul> 
+             <li>The Importance of Goals,Especially During DifficultTimes</li>
+             <li>5 Steps to Discovering YourLife Purpose In 2022!</li></details>
+
+            </ul>
+        </li>
+       
+       
+        
+    </ul>
+       <ul> 
+        <li><h3><summary>Ideas</summary></h3>
+            
+         <ul>
+            <details>
+          <li>10 Books to Read in The Fall</li>
+          <li>Top Web Development ProjectsIdeas</li></details> 
+         </ul>
+        </li>
+    </ul>
+      
+    </ul>
+    <h2>Most Viewed Articls</h2>
+        <ol type ="I"id="mylist">
+            <li> Instant Gratification Is Stopping YouFrom Reaching Your Goals! </li>
+            <li>Stop Juggling Between Work And Life</li>
+        </ol>
+    <h2>IP Project Winners</h2>
+    <p>------------------------------------</p>
+    <p>Rank&emsp;Award</p>
+    <p>------------------------------------</p>
+    <p>First&emsp; Free hosting and support</P>
+    <p>Second&emsp;5GB Mobile Data</P>
+    <p>Third&emsp; 1GB Mobile Data</P>
+    <p>------------------------------------</p>
+    
+
+
+  </td>
+</th>
+
+
+
+<th><td width = "10%"></td></th>
+
+</table>
+<br><hr><br>
+<table>
+ <th>
+  <td width="10%">
+  </td>
+ </th>
+<th>
+ <td width="40%" align="left">
+ <p> Follow us on : <a href="#">Facebook</a> |<a href="#"> Twitter</a></p>
+ </td>
+</th>
+<th>
+ <td width="40%" >
+ <p> <a href="#">Privacy</a> | <a href="#">Term of use</a></p>
+ </td>
+</th>
+<th>
+  <td width="10%">
+</td>
+</th>
+<tr>
+    <th>
+<td width="10%">
+</td>
+</th>
+<th>
+<td align="center" width="75%">
+    <p align="center">Copyright © AASTU SEng 2021, All Rights Reserved</p>
+</td>
+</th>
+<th>
+<td width="10%">
+</td>
+</th>
+     </table>
+
+
+
+</body>
+
+</html
